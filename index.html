@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista Steampunk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Lista Steampunk</h1>
+    <form id="item-form" class="item-form">
+      <input id="item-input" type="text" placeholder="Adicione algo à lista" aria-label="Novo item" autocomplete="off">
+      <button type="submit">Adicionar</button>
+    </form>
 
+    <ul id="item-list" class="item-list" aria-live="polite"></ul>
+  </main>
+  <div class="smoke-layer" id="smoke-layer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
